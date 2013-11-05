@@ -1,0 +1,15 @@
+<Project Name="$project" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Compile Include="$project.cs" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<AssemblyName>$project</AssemblyName>
+		<OutputPath>bin\</OutputPath>
+	</PropertyGroup>
+
+	<Target Name="Build">
+		<Makedir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />
+		<Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />
+	</Target>
+</Project>

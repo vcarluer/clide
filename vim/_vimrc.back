@@ -1,0 +1,155 @@
+set nocompatible
+source $VIMRUNTIME/vimrc_example.vim
+source $VIMRUNTIME/mswin.vim
+behave mswin
+" setup C# building
+" if !exists("autocommands_loaded")
+" let autocommands_loaded = 1
+" autocmd BufNewFile,BufRead *.cs compiler msbuild
+
+set diffexpr=MyDiff()
+function MyDiff()
+  let opt = '-a --binary '
+  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
+  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
+  let arg1 = v:fname_in
+  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
+  let arg2 = v:fname_new
+  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
+  let arg3 = v:fname_out
+  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
+  let eq = ''
+  if $VIMRUNTIME =~ ' '
+    if &sh =~ '\<cmd'
+      let cmd = '""' . $VIMRUNTIME . '\diff"'
+      let eq = '"'
+    else
+      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
+    endif
+  else
+    let cmd = $VIMRUNTIME . '\diff'
+  endif
+  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
+endfunction
+
+" MSDN integrated help
+function! OnlineDoc()
+let s:wordUnderCursor = expand("<cword>")
+
+if &ft=~"cs"
+	let s:url="http://social.msdn.microsoft.com/Search/en-US/?Refinement=26&Query=".s:wordUnderCursor
+else
+	execute "help ".s:wordUnderCursor
+	return
+endif
+
+let s:browser="!start cmd /C chrome \"".s:url."\""
+
+execute s:browser
+endfunction
+
+" map <silent> <F1>:call OnlineDoc()<CR>
+map <silent> <F1> <ESC>:call OnlineDoc()<CR>
+" NERDTree shortcuts
+" map <F2>:NERDTreeToggle<CR>
+map <F2> :NERDTreeToggle<CR>
+
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1
+
+map <F6> :b#<CR>
+
+function! Find(name)
+	let l:_name = substitute(a:name, "\\s", "*", "g")
+
+	let l:files = system("dir *".l:_name."* /B /S" )
+	let l:list = split(l:files, '\n')
+	let l:len = len(l:list)
+	echo 'Found '.l:len.' files'
+
+	if l:len < 1 
+		echo "'".a:name."' not found" 
+		return 
+	elseif l:len != 1 
+		let l:i = 1 
+		let l:cwd = substitute( getcwd(), '\\', '\\\\', "g" ) 
+		for line in l:list 
+			echo l:i . ": " . substitute( l:line, l:cwd, "", "g" ) 
+			let l:i += 1 
+		endfor 
+		let l:input = input( "Which ? (=nothing)\n" )
+
+		if strlen( l:input ) == 0
+			return
+		elseif strlen( substitute( l:input, "[0-9]", "", "g" ) ) > 0
+			echo "Not a number"
+			return
+		elseif l:input < 1 || l:input > l:len
+			echo "Out of range"
+			return
+		endif
+
+		let l:line = l:list[l:input-1]
+	else
+		let l:line = l:list[0]
+	endif
+	let l:line = substitute( l:line, "^[^\t]*\t./", "", "" )
+	execute ":e " . l:line
+endfunction
+
+command! -nargs=1 Find :call Find("<args>")
+autocmd BufRead,BufNewFile *.log set syntax=log4j 
+
+map <silent> <F3> <ESC>:echon expand('%:p')':'line('.')<CR>
+
+command! -nargs=1 D :call DebugSource("<args>")
+function! DebugSource(app)
+	let l:source = expand('%:p').':'.line('.')
+	let l:cmd = "!start mdbg \\!r bin\\debug\\".a:app." \\!b \"".l:source."\" \\!go"
+	execute l:cmd
+endfunction
+
+" Find files and lines containing name string
+function! FindStr(name)
+	let l:_name = substitute(a:name, "\\s", "*", "g")
+
+	let l:files = system("findstr /N /S /I \".*".l:_name.".*\" *.cs" )
+	let l:list = split(l:files, '\n')
+	let l:len = len(l:list)
+	echo 'Found '.l:len.' files'
+
+	if l:len < 1 
+		echo "'".a:name."' not found" 
+		return 
+	elseif l:len != 1 
+		let l:i = 1 
+		let l:cwd = substitute( getcwd(), '\\', '\\\\', "g" ) 
+		for line in l:list 
+			echo l:i . ": " . substitute( l:line, l:cwd, "", "g" ) 
+			let l:i += 1 
+		endfor 
+		let l:input = input( "Which ? (=nothing)\n" )
+
+		if strlen( l:input ) == 0
+			return
+		elseif strlen( substitute( l:input, "[0-9]", "", "g" ) ) > 0
+			echo "Not a number"
+			return
+		elseif l:input < 1 || l:input > l:len
+			echo "Out of range"
+			return
+		endif
+
+		let l:line = l:list[l:input-1]
+	else
+		let l:line = l:list[0]
+	endif
+	let l:line = substitute( l:line, "^[^\t]*\t./", "", "" )
+	let l:linefiles = split(l:line, ':')	
+	let l:linefile =  "+" . l:linefiles[1] . " " . l:linefiles[0] 
+	" echo l:linefile
+	execute ":e " . l:linefile
+endfunction
+command! -nargs=1 FindStr :call FindStr("<args>")

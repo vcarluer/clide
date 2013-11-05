@@ -1,0 +1,27 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="All">		
+	<PropertyGroup>
+		<ProjectPath></ProjectPath>
+		<Namespace></Namespace>
+		<Project></Project>
+	</PropertyGroup>
+
+	<Import Project="$(MSBuildProjectDirectory)\..\..\MsBuildTasks\MSBuild.Community.Tasks.Targets"/>
+	
+	<Target Name="ReplacePathCS">
+		 <FileUpdate Files="$(ProjectPath)\$(Project).cs"
+			Regex="\$namespace"
+			ReplacementText="$(Namespace)" />
+		 <FileUpdate Files="$(ProjectPath)\$(Project).cs"
+			Regex="\$project"
+			ReplacementText="$(Project)" />
+	</Target>
+
+	<Target Name="ReplacePathBuild">
+		 <FileUpdate Files="$(ProjectPath)\build.xml"
+			Regex="\$project"
+			ReplacementText="$(Project)" />
+	</Target>
+
+
+	<Target Name="All" DependsOnTargets="ReplacePathCS;ReplacePathBuild" />
+</Project>
