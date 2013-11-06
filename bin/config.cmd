@@ -1,4 +1,5 @@
 @echo off
+if NOT EXIST "%~dp0..\config\settings.ini" copy "%~dp0..\config\settings.template.ini" "%~dp0..\config\settings.ini"
 set INIFILE="%~dp0..\config\settings.ini"
 call:getvalue %INIFILE%
 goto:eof

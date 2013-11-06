@@ -1,3 +1,0 @@
-@echo off
-call readconfig.cmd
-echo Working in %workspace%\%project% with .NET %NetVersion%
