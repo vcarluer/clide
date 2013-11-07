@@ -168,3 +168,9 @@ function! UIdGen()
 	exe "normal i"l:uid
 endfunction
 command! UIdGen :call UIdGen()
+
+function! Pyflakes()
+	let l:cmd = "!pyflakes ".expand('%:p')"
+	execute l:cmd
+endfunction
+command! Pyflakes :call Pyflakes()
