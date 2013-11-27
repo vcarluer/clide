@@ -281,6 +281,7 @@ echo 1 - Empty recycle bin
 echo 2 - List processes
 echo 3 - Add or remove features
 echo 4 - IIS restart
+echo 5 - Kill process
 echo sd - Shutdown computer
 echo b - back
 echo q - Quit (or x to keep window open)
@@ -317,6 +318,12 @@ if %toRun% == 3 (
 if %toRun% == 4 (
 	set catchPhrase=Reset the web
 	start cmd /C "iisreset"
+	goto CHOICE
+)
+
+if %toRun% == 5 (
+	set catchPhrase=Kill kill kill
+	start cmd /C "tkill"
 	goto CHOICE
 )
 

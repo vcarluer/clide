@@ -113,6 +113,13 @@ function! Debug(app)
 	execute l:cmd
 endfunction
 
+command! -nargs=1 AttachX86 :call AttachX86("<args>")
+function! AttachX86(procid)
+	let l:source = expand('%:p').':'.line('.')
+	let l:cmd = "!start mdbgX86.cmd \\!a ".a:procid." \\!b \"".l:source."\""
+	execute l:cmd
+endfunction
+
 command! -nargs=1 Attach :call Attach("<args>")
 function! Attach(procid)
 	let l:source = expand('%:p').':'.line('.')
