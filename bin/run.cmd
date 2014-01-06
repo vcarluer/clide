@@ -97,7 +97,7 @@ goto CHOICE
 
 :TOOLS
 echo 1 - Outlook
-echo 2 - Jira client
+echo 2 - Jira
 echo 3 - Remote desktop
 echo 4 - SQL server management studio
 echo 5 - IIS Manager
@@ -110,9 +110,13 @@ echo 11 - Eclipse
 echo 12 - Lynx
 echo 13 - Azure management
 echo 14 - Internet Explorer
-echo 15 - Microsoft Dynamics NAV 2009 R2 Classic SQL
-echo 16 - System properties
-echo 17 - Computer management
+echo 15 - Microsoft Dynamics NAV 2013 R2 Development Environment
+echo 16 - Microsoft Dynamics NAV 2013 R2 RTC
+echo 17 - System properties
+echo 18 - Computer management
+echo 19 - Capture
+echo 20 - Jenkins
+echo 21 - Wiki ORTEMS
 echo b - back
 echo q - Quit (or x to keep window open)
 set /P toRun=Choice: 
@@ -124,9 +128,21 @@ if %toRun% == 1 (
 	goto CHOICE
 )
 
+if %toRun% == 20 (
+	set catchPhrase=Jenkins is waiting for you
+	start http://v-hudson:8080
+	goto CHOICE
+)
+
+if %toRun% == 21 (
+	set catchPhrase=wikiwikiwikiwiki
+	start http://wiki.ortems.com
+	goto CHOICE
+)
+
 if %toRun% == 2 (
 	set catchPhrase=Name your task
-	start cmd /C "start C:\Progra~2\JIRACL~1\bin\jiraclient.exe"
+	start http://v-wiki:8080
 	goto CHOICE
 )
 
@@ -203,21 +219,35 @@ if %toRun% == 14 (
 )
 
 if %toRun% == 15 (
-	set catchPhrase=I assume you need some Microsoft features
-	start cmd /C "start C:\PROGRA~2\MIB72F~1\60\Classic\finsql.exe"
+	set catchPhrase=Beware your environment
+	start cmd /C "start c:\PROGRA~2\MIB72F~1\71\ROLETA~1\finsql.exe"
 
 	goto CHOICE
 )
 
 if %toRun% == 16 (
+	set catchPhrase=Life is a theater in which you have a role
+	start cmd /C "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Dynamics NAV 2013 R2.lnk"
+
+	goto CHOICE
+)
+
+if %toRun% == 17 (
 	set catchPhrase=Who am I
 	start /MIN cmd /C "sysdm.cpl"
 	goto CHOICE
 )
 
-if %toRun% == 17 (
+if %toRun% == 18 (
 	set catchPhrase=Manage me well
 	start /MIN cmd /C "compmgmt.msc"
+	goto CHOICE
+)
+
+if %toRun% == 19 (
+	set catchPhrase=Quick capture it!
+
+	start %windir%\system32\SnippingTool.exe
 	goto CHOICE
 )
 

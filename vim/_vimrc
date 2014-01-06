@@ -128,10 +128,10 @@ function! Attach(procid)
 endfunction
 
 " Find files and lines containing name string
-function! FindStr(name)
+function! FindStr(name, ext)
 	let l:_name = substitute(a:name, "\\s", "*", "g")
 
-	let l:files = system("findstr /N /S /I \".*".l:_name.".*\" *.cs" )
+	let l:files = system("findstr /N /S /I \".*".l:_name.".*\" *.".a:ext )
 	let l:list = split(l:files, '\n')
 	let l:len = len(l:list)
 	echo 'Found '.l:len.' files'
@@ -168,7 +168,9 @@ function! FindStr(name)
 	" echo l:linefile
 	execute ":e " . l:linefile
 endfunction
-command! -nargs=1 FindStr :call FindStr("<args>")
+command! -nargs=1 FindStr :call FindStr("<args>", "cs")
+command! -nargs=1 FindStrJs :call FindStr("<args>", "js")
+command! -nargs=1 FindStrAscx :call FindStr("<args>", "ascx")
 
 function! UIdGen()
 	let l:uid = system('uuidgen')
