@@ -117,6 +117,8 @@ echo 18 - Computer management
 echo 19 - Capture
 echo 20 - Jenkins
 echo 21 - Wiki ORTEMS
+echo 22 - IceScrum
+echo 23 - Cygwin64 terminal
 echo b - back
 echo q - Quit (or x to keep window open)
 set /P toRun=Choice: 
@@ -137,6 +139,17 @@ if %toRun% == 20 (
 if %toRun% == 21 (
 	set catchPhrase=wikiwikiwikiwiki
 	start http://wiki.ortems.com
+	goto CHOICE
+)
+
+if %toRun% == 22 (
+	set catchPhrase=Ice ice
+	start http://srvbe:8080/icescrum/
+	goto CHOICE
+)
+if %toRun% == 23 (
+	set catchPhrase=Unix powa
+	start cmd /C "C:\cygwin64\bin\mintty.exe -i /Cygwin-Terminal.ico -"
 	goto CHOICE
 )
 
