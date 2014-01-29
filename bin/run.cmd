@@ -43,7 +43,7 @@ if %runMode% == 3 goto GAMES
 if %runMode% == 4 goto COMMANDS
 
 :MAIN
-echo 1 - Developer command prompt
+echo 1 - PowerShell
 echo 2 - Chrome
 echo 3 - Explorer
 echo a - TOOLS
@@ -53,7 +53,7 @@ echo q - Quit (or x to keep window open)
 set /P toRun=Choice: 
 if %toRun% == 1 (
 	set catchPhrase=Have a good dev time
-	call "%~dp0c.cmd"
+	start cmd /C "%~dp0cp.cmd"
 	goto CHOICE
 )
 
@@ -119,6 +119,7 @@ echo 20 - Jenkins
 echo 21 - Wiki ORTEMS
 echo 22 - IceScrum
 echo 23 - Cygwin64 terminal
+echo 24 - Developer command prompt
 echo b - back
 echo q - Quit (or x to keep window open)
 set /P toRun=Choice: 
@@ -150,6 +151,12 @@ if %toRun% == 22 (
 if %toRun% == 23 (
 	set catchPhrase=Unix powa
 	start cmd /C "C:\cygwin64\bin\mintty.exe -i /Cygwin-Terminal.ico -"
+	goto CHOICE
+)
+
+if %toRun% == 24 (
+	set catchPhrase=Have a good dev time
+	call "%~dp0c.cmd"
 	goto CHOICE
 )
 
