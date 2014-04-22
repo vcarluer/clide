@@ -6,7 +6,8 @@ behave mswin
 " if !exists("autocommands_loaded")
 " let autocommands_loaded = 1
 " autocmd BufNewFile,BufRead *.cs compiler msbuild
-
+set encoding=utf8
+set fileencoding=utf8
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
@@ -179,7 +180,21 @@ endfunction
 command! UIdGen :call UIdGen()
 
 function! Pyflakes()
-	let l:cmd = "!pyflakes ".expand('%:p')"
+	let l:cmd = "!pyflakes ".expand('%:p')
 	execute l:cmd
 endfunction
 command! Pyflakes :call Pyflakes()
+
+function! Jshint()
+	let l:cmd = "!gulp jshint"
+	execute l:cmd
+endfunction
+command! Jshint :call Jshint()
+map <silent> <F7> <ESC>:Jshint<CR>
+
+function! BuildJsDev()
+	let l:cmd = "!gulp rjsBuild-dev"
+	execute l:cmd
+endfunction
+command! BuildJsDev :call BuildJsDev()
+map <silent> <F8> <ESC>:BuildJsDev<CR>

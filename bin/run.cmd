@@ -120,6 +120,7 @@ echo 21 - Wiki ORTEMS
 echo 22 - IceScrum
 echo 23 - Cygwin64 terminal
 echo 24 - Developer command prompt
+echo 25 - Pencil
 echo b - back
 echo q - Quit (or x to keep window open)
 set /P toRun=Choice: 
@@ -160,9 +161,15 @@ if %toRun% == 24 (
 	goto CHOICE
 )
 
+if %toRun% == 25 (
+	set catchPhrase=Mocking
+	start cmd /C "C:\Program Files (x86)\Evolus\Pencil\pencil.exe"
+	goto CHOICE
+)
+
 if %toRun% == 2 (
 	set catchPhrase=Name your task
-	start http://v-wiki:8080
+	start http://v-jira6:8080/secure/Dashboard.jspa
 	goto CHOICE
 )
 
@@ -216,7 +223,7 @@ if %toRun% == 10 (
 
 if %toRun% == 11 (
 	set catchPhrase=Code before the sun strike
-	start cmd /C "eclipse"
+	start cmd /C "start C:\Java\eclipse\eclipse.exe"
 	goto CHOICE
 )
 

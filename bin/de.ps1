@@ -1,9 +1,9 @@
 param($branch)
 if ($branch)
 {
-	cd "c:\dotNet\Projects\PlannerOne\branches\$branch"
+	cd "$env:workspace\$env:project\branches\$branch"
 }
 else
 {
-	cd "c:\dotNet\Projects\PlannerOne\trunk"
+	cd "$env:workspace\$env:project\trunk"
 }
