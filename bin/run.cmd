@@ -44,7 +44,7 @@ if %runMode% == 4 goto COMMANDS
 
 :MAIN
 echo 1 - PowerShell
-echo 2 - Chrome
+echo 2 - Firefox
 echo 3 - Explorer
 echo a - TOOLS
 echo z - GAMES
@@ -58,8 +58,8 @@ if %toRun% == 1 (
 )
 
 if %toRun% == 2 (
-	set catchPhrase=Browse the metal
-	start cmd /C "start C:\Progra~2\Google\Chrome\Application\chrome.exe"
+	set catchPhrase=This fox is on fire
+	start cmd /C "start C:\Progra~2\Mozill~1\firefox.exe"
 	goto CHOICE
 )
 
@@ -103,7 +103,7 @@ echo 4 - SQL server management studio
 echo 5 - IIS Manager
 echo 6 - Windows Service Management
 echo 7 - Gimp
-echo 8 - Visual Studio 2012
+echo 8 - Visual Studio 2013
 echo 9 - FileZilla
 echo 10 - Virtual Box
 echo 11 - Eclipse
@@ -121,6 +121,7 @@ echo 22 - IceScrum
 echo 23 - Cygwin64 terminal
 echo 24 - Developer command prompt
 echo 25 - Pencil
+echo 26 - Chrome
 echo b - back
 echo q - Quit (or x to keep window open)
 set /P toRun=Choice: 
@@ -167,6 +168,12 @@ if %toRun% == 25 (
 	goto CHOICE
 )
 
+if %toRun% == 26 (
+	set catchPhrase=Browse the metal
+	start cmd /C "start C:\Progra~2\Google\Chrome\Application\chrome.exe"
+	goto CHOICE
+)
+
 if %toRun% == 2 (
 	set catchPhrase=Name your task
 	start http://v-jira6:8080/secure/Dashboard.jspa
@@ -205,7 +212,7 @@ if %toRun% == 7 (
 
 if %toRun% == 8 (
 	set catchPhrase=Use it smartly
-	start cmd /C "start C:\Progra~2\Micros~1.0\Common7\IDE\devenv.exe" 
+	start cmd /C "start "C:\PROGRA~2\MICROS~3..\Common7\IDE\devenv.exe" 
 	goto CHOICE
 )
 

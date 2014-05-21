@@ -197,4 +197,4 @@ function! BuildJsDev()
 	execute l:cmd
 endfunction
 command! BuildJsDev :call BuildJsDev()
-map <silent> <F8> <ESC>:BuildJsDev<CR>
+map <silent> <F9> <ESC>:BuildJsDev<CR>
