@@ -46,6 +46,7 @@ if %runMode% == 4 goto COMMANDS
 echo 1 - PowerShell
 echo 2 - Firefox
 echo 3 - Explorer
+echo 4 - Cygwin
 echo a - TOOLS
 echo z - GAMES
 echo e - COMMANDS
@@ -66,6 +67,12 @@ if %toRun% == 2 (
 if %toRun% == 3 (
 	set catchPhrase=Explore your virtual universe
 	start cmd /C "%windir%\explorer.exe"
+	goto CHOICE
+)
+
+if %toRun% == 4 (
+	set catchPhrase=The matrix key is open
+	start cmd /C "start C:\cygwin64\bin\mintty.exe -"
 	goto CHOICE
 )
 
@@ -122,6 +129,7 @@ echo 23 - Cygwin64 terminal
 echo 24 - Developer command prompt
 echo 25 - Pencil
 echo 26 - Chrome
+echo 27 - WebStorm
 echo b - back
 echo q - Quit (or x to keep window open)
 set /P toRun=Choice: 
@@ -171,6 +179,13 @@ if %toRun% == 25 (
 if %toRun% == 26 (
 	set catchPhrase=Browse the metal
 	start cmd /C "start C:\Progra~2\Google\Chrome\Application\chrome.exe"
+	goto CHOICE
+)
+
+if %toRun% == 27 (
+	set catchPhrase=Storm in approach
+	start cmd /C "C:\Progra~2\jetbra~1\Websto~1.1\bin\WebStorm.exe"
+
 	goto CHOICE
 )
 
