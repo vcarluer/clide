@@ -39,17 +39,15 @@ echo.
 echo What do you want to run?
 if %runMode% == 1 goto MAIN
 if %runMode% == 2 goto TOOLS
-if %runMode% == 3 goto GAMES
-if %runMode% == 4 goto COMMANDS
+if %runMode% == 3 goto COMMANDS
 
 :MAIN
 echo 1 - PowerShell
-echo 2 - Firefox
+echo 2 - Chrome
 echo 3 - Explorer
 echo 4 - Cygwin
 echo a - TOOLS
-echo z - GAMES
-echo e - COMMANDS
+echo z - COMMANDS
 echo q - Quit (or x to keep window open)
 set /P toRun=Choice: 
 if %toRun% == 1 (
@@ -60,7 +58,7 @@ if %toRun% == 1 (
 
 if %toRun% == 2 (
 	set catchPhrase=This fox is on fire
-	start cmd /C "start C:\Progra~2\Mozill~1\firefox.exe"
+	start cmd /C "start C:\Progra~2\Google\Chrome\Applic~1\chrome.exe"
 	goto CHOICE
 )
 
@@ -83,11 +81,6 @@ if %toRun% == a (
 
 if %toRun% == z (
 	set runMode=3
-	goto CHOICE
-)
-
-if %toRun% == e (
-	set runMode=4
 	goto CHOICE
 )
 
@@ -314,43 +307,6 @@ if %toRun% == x (
 )
 
 set runMode=2
-set catchPhrase=You seem to be lost
-goto CHOICE
-
-:GAMES
-echo 1 - Dota 2
-echo 2 - Steam
-echo b - back
-echo q - Quit (or x to keep window open)
-set /P toRun=Choice: 
-
-set runMode=1
-if %toRun% == 1 (
-	set catchPhrase=launching dota 2!! Gank powa
-	start cmd /C "start c:\Progra~2\Steam\SteamA~1\common\dota2b~1\dota.exe"
-	goto CHOICE
-)
-
-if %toRun% == 2 (
-	set catchPhrase=Life is a game
-	start cmd /C "start c:\Progra~2\Steam\Steam.exe"
-	goto CHOICE
-)
-
-if %toRun% == b (
-	set catchPhrase=Back to the future
-	goto CHOICE
-)
-
-if %toRun% == q (
-	goto END
-)
-
-if %toRun% == x (
-	goto ENDX
-)
-
-set runMode=3
 set catchPhrase=You seem to be lost
 goto CHOICE
 
