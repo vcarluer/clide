@@ -1,0 +1,24 @@
+See http://www.pervalidus.net//lynx/ for additional information.
+
+1- Make any changes to lynx.cfg, not lynx.cfg.dist. lynx.cfg includes
+it.
+
+2- I assume Lynx is installed in D:\Program Files\Lynx. If you use
+another PATH, edit lynx.cfg and change
+
+INCLUDE:D:\Program Files\Lynx\lynx.cfg.list
+
+and
+
+HELPFILE:file://localhost/D:/Program Files/Lynx/lynx_help/lynx_help_main.html.gz
+
+accordingly.
+
+3- If you want to use any other .lss files from the lynx_doc/samples/
+directory, start lynx.exe with the -lss option.
+
+Examples (if you're in D:\Program Files\Lynx):
+
+lynx.exe -lss=lynx_doc/samples/blue-background.lss
+lynx.exe -lss=lynx_doc/samples/bright-blue.lss
+lynx.exe -lss=lynx_doc/samples/mild-colors.lss

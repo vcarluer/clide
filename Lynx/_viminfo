@@ -1,0 +1,1170 @@
+# Ce fichier viminfo a été généré par Vim 7.4.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=latin1
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dernier motif de recherche  :
+~MSle0~/Lynx
+
+# Dernier motif de recherche Substitue  :
+~MSle0&\/>
+
+# Dernières chaînes de substitution :
+$
+
+# Historique ligne de commande (chronologie décroissante) :
+:x
+:w
+:q
+:q!
+:qa!
+:!qa
+:x Perlin.java
+:s
+:verbose nmap <C-]>
+:help
+:help imap
+:help map
+:qa
+:b#
+:help spelling
+:help taglist
+:help buffer
+:Matrix
+:ls
+:bl
+:bf
+:bn
+:bp
+:bdel
+:Find environment
+:find EnvironmentFactory
+:find Environment
+:qa§
+:/Focus
+:be
+:\be
+:NERDTree
+:NERDTreeToggle
+:bs
+:b
+:b8
+:b1
+:e c:\BuildEnv\commands
+:b list
+:b 1
+:! bin\Debug\PlannerOne.exe
+:Find CombinedCriterionMigration
+:b 11
+:13
+:11
+:b 20
+:b 16
+:b 06
+:b 7
+:e PlanningSchedulerInterface\MigrationConfiguration.cs
+
+# Historique chaîne de recherche (chronologie décroissante) :
+?/Lynx
+?/lynx
+?/Ortems
+?/ORtems
+?/machine
+?/lockObject
+?/Execute
+?/GetCommandById
+?/CheckCommandState
+?/State
+?/StateCheckCommad
+?/Conf
+?/Post
+??Proto
+?/Proto
+? \<jar\>
+? \<map\>
+? \<miniBufExplModSelTarget\>
+? \<let\>
+? \<NERDTree\>
+?/CreateTables
+?/UpgradeOr
+?/Tlist_Use_Left_Window
+?/left
+?/NERDTree
+?/NERD
+? Focus
+?/focus
+?/Trinity_InitNERDTree
+?/buffer
+? ^\C		private string file;$
+?/Trinity_ToggleNERD
+?/NERDTreeToggle
+?/Choice
+?/close
+?/failed
+?/Failed
+?/GetData
+?/GetFollowUp
+?/follow up
+?/GetDAta
+?/PerformDela
+?/PerformD
+? \<GetData\>
+? \<GetFollowUp\>
+?/Tasks to update for follow up.
+?/Spring
+?/AdapterService
+?/SystemCoreInterface
+?/ShellCore
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+@12
+@1
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Registres :
+"0	LINE	0
+			<Namespace></Namespace>
+"1	LINE	0
+			 <FileUpdate Files="$(csPath)"
+"2	LINE	0
+			 <FileUpdate Files="$(csPath)"
+"3	LINE	0
+				ReplacementText="$(Project)" />
+"4	LINE	0
+				Regex="\$project"
+"5	LINE	0
+			 <FileUpdate Files="$(dddcsPath)"
+"6	LINE	0
+			<SourceTemplate>"$(MSBuildProjectDirectory)\Version.template"</SourceTemplate>
+"7	LINE	0
+			<SourceVersion>"$(MSBuildProjectDirectory)\Version.cs"</SourceVersion>
+"8	LINE	0
+	dd		
+"9	LINE	0
+			<SourceTemplate>"$(MSBuildProjectDirectory)\Version.template"</SourceTemplate>
+	dd
+""-	CHAR	0
+	vcarluer
+
+# Marques dans le fichier :
+'0  1  6  c:\BuildEnv\clide\bin\l.cmd
+'1  190  20  c:\BuildEnv\clide\bin\run.cmd
+'2  14  17  c:\BuildEnv\clide\config\settings.ini
+'3  1  0  c:\BuildEnv\clide\CSContinuousBuild\CSContinuousBuild\CSContinuousBuild.csproj
+'4  3  32  c:\BuildEnv\clide\CSContinuousBuild\CSContinuousBuild\Program.cs
+'5  1  0  C:\dotNet\Projects\PlannerOne\trunk\PlannerOne.cs
+'6  1  0  C:\dotNet\Projects\Tata\trunk\build.xml
+'7  1  0  C:\dotNet\Projects\tata\trunk\tata.cs
+'8  7  0  c:\BuildEnv\clide\templates\tools\ReplaceSetupPath.xml
+'9  3  19  c:\BuildEnv\clide\templates\csharp\build.xml
+
+# Liste de sauts (le plus récent en premier) :
+-'  1  6  c:\BuildEnv\clide\bin\l.cmd
+-'  190  20  c:\BuildEnv\clide\bin\run.cmd
+-'  110  10  c:\BuildEnv\clide\bin\run.cmd
+-'  1  0  c:\BuildEnv\clide\bin\run.cmd
+-'  14  17  c:\BuildEnv\clide\config\settings.ini
+-'  9  8  c:\BuildEnv\clide\config\settings.ini
+-'  17  20  c:\BuildEnv\clide\config\settings.ini
+-'  1  0  c:\BuildEnv\clide\config\settings.ini
+-'  1  0  c:\BuildEnv\clide\CSContinuousBuild\CSContinuousBuild\CSContinuousBuild.csproj
+-'  3  32  c:\BuildEnv\clide\CSContinuousBuild\CSContinuousBuild\Program.cs
+-'  2  65  c:\BuildEnv\clide\CSContinuousBuild\CSContinuousBuild\Program.cs
+-'  1  0  c:\BuildEnv\clide\CSContinuousBuild\CSContinuousBuild\Program.cs
+-'  1  0  C:\dotNet\Projects\PlannerOne\trunk\PlannerOne.cs
+-'  1  0  C:\dotNet\Projects\Tata\trunk\build.xml
+-'  1  0  C:\dotNet\Projects\tata\trunk\tata.cs
+-'  7  0  c:\BuildEnv\clide\templates\tools\ReplaceSetupPath.xml
+-'  6  1  c:\BuildEnv\clide\templates\tools\ReplaceSetupPath.xml
+-'  23  0  c:\BuildEnv\clide\templates\tools\ReplaceSetupPath.xml
+-'  8  0  c:\BuildEnv\clide\templates\tools\ReplaceSetupPath.xml
+-'  13  22  c:\BuildEnv\clide\templates\tools\createProject.cmd
+-'  1  0  c:\BuildEnv\clide\templates\tools\createProject.cmd
+-'  3  19  c:\BuildEnv\clide\templates\csharp\build.xml
+-'  15  29  c:\BuildEnv\clide\templates\csharp\MainClass.cs
+-'  1  0  c:\BuildEnv\clide\templates\csharp\MainClass.cs
+-'  1  0  c:\BuildEnv\clide\bin\backupclide.cmd
+-'  1  0  c:\BuildEnv\clide\templates\csharp\WeekNumber.cs
+-'  82  0  c:\BuildEnv\commands
+-'  90  17  c:\BuildEnv\commands
+-'  1  0  c:\BuildEnv\vte.cmd
+-'  1  0  c:\BuildEnv\todem.cmd
+-'  1  0  c:\BuildEnv\test.cmd
+-'  1  0  c:\BuildEnv\svnSearch.cmd
+-'  1  0  c:\BuildEnv\svnRev.cmd
+-'  1  0  c:\BuildEnv\svnAddAll.cmd
+-'  1  0  c:\BuildEnv\st.cmd
+-'  1  0  c:\BuildEnv\s.cmd
+-'  1  0  c:\BuildEnv\rmd.cmd
+-'  83  5  C:\dotNet\Projects\PlannerOne\trunk\DynamicsNAV\prepare_nav_planneronedb.sql
+-'  82  9  C:\dotNet\Projects\PlannerOne\trunk\DynamicsNAV\prepare_nav_planneronedb.sql
+-'  1  0  C:\dotNet\Projects\PlannerOne\trunk\DynamicsNAV\prepare_nav_planneronedb.sql
+-'  1  33  C:\dotNet\Projects\PlannerOne\trunk\cleanPugins.cmd
+-'  168  0  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  318  14  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  293  14  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  245  15  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  131  8  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  45  17  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  500  14  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  361  14  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  461  15  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  458  6  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  405  15  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  392  6  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  369  10  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  340  13  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  88  16  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandService.cs
+-'  1  0  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandService.cs
+-'  78  2  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  1  0  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostinterface\ICommandService.cs
+-'  1  0  C:\dotNet\Projects\PlannerOne\branches\V3.1\PlanningManagement\-MiniBufExplorer-
+-'  2  43  C:\dotNet\Projects\PlannerOne\branches\V3.1\PlanningManagement\-MiniBufExplorer-
+-'  1  0  C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+-'  242  4  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  65  32  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  56  32  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  46  32  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  4  65  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  446  4  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  213  19  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  210  19  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  206  19  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  202  19  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  198  19  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  137  31  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  123  31  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  107  31  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  91  31  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  81  4  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  1  0  C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+-'  13  12  C:\java\projects\tests\perlin\src\com\gamersassociate\perlin\Perlin.java
+-'  14  0  C:\java\projects\tests\perlin\src\com\gamersassociate\perlin\Perlin.java
+-'  10  29  C:\java\projects\tests\perlin\src\com\gamersassociate\perlin\Perlin.java
+-'  1  0  C:\java\projects\tests\perlin\src\com\gamersassociate\perlin\Perlin.java
+-'  1  0  C:\java\projects\tests\perlin\src\com\gamersassociate\perlin\Perlin.class
+-'  2  4  C:\java\projects\tests\perlin\cr.bat
+-'  1  0  C:\java\projects\tests\perlin\cr.bat
+-'  1  47  C:\java\projects\tests\perlin\run.bat
+-'  1  53  C:\java\projects\tests\perlin\comp.bat
+-'  5  0  C:\java\projects\tests\perlin\src\com\gamersassociate\perlin\Perlin.java
+-'  7  19  C:\java\projects\tests\perlin\src\com\gamersassociate\perlin\Perlin.java
+-'  17  0  C:\java\projects\tests\perlin\src\com\gamersassociate\perlin\Perlin.java
+-'  16  0  C:\java\projects\tests\perlin\src\com\gamersassociate\perlin\Perlin.java
+-'  1  26  C:\java\projects\tests\perlin\src\com\gamersassociate\perlin.java
+-'  89  19  c:\BuildEnv\commands
+-'  86  182  c:\BuildEnv\commands
+-'  61  0  c:\BuildEnv\commands
+-'  1  0  c:\BuildEnv\temp
+-'  32  2  C:\Users\vcarluer\_vimrc
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> c:\BuildEnv\clide\bin\l.cmd
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> c:\BuildEnv\clide\bin\run.cmd
+	"	190	20
+
+> c:\BuildEnv\clide\config\settings.ini
+	"	14	17
+	^	17	22
+	.	14	0
+	+	14	25
+	+	9	17
+	+	14	0
+
+> c:\BuildEnv\clide\CSContinuousBuild\CSContinuousBuild\CSContinuousBuild.csproj
+	"	1	0
+
+> c:\BuildEnv\clide\CSContinuousBuild\CSContinuousBuild\Program.cs
+	"	3	32
+	^	3	33
+	.	3	33
+	+	2	65
+	+	3	33
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlannerOne.cs
+	"	1	0
+
+> C:\dotNet\Projects\Tata\trunk\build.xml
+	"	1	0
+
+> C:\dotNet\Projects\tata\trunk\tata.cs
+	"	1	0
+
+> c:\BuildEnv\clide\templates\tools\createProject.cmd
+	"	13	22
+	^	4	19
+	.	13	22
+	+	14	0
+	+	13	26
+	+	12	4
+	+	9	25
+	+	11	2
+	+	10	0
+	+	11	25
+	+	6	16
+	+	7	29
+	+	4	9
+	+	7	22
+	+	4	0
+	+	2	5
+	+	3	5
+	+	7	22
+	+	13	22
+
+> c:\BuildEnv\clide\templates\tools\NERD_tree_1
+	"	6	0
+	.	1	0
+	+	1	0
+
+> c:\BuildEnv\clide\templates\tools\-MiniBufExplorer-
+	"	1	21
+	.	2	0
+	+	2	0
+	+	2	0
+
+> c:\BuildEnv\clide\templates\tools\ReplaceSetupPath.xml
+	"	7	0
+	^	7	0
+	.	7	0
+	+	8	0
+	+	23	25
+	+	23	32
+	+	23	42
+	+	23	0
+	+	20	0
+	+	21	20
+	+	22	31
+	+	6	0
+	+	8	0
+	+	6	0
+	+	6	0
+	+	6	2
+	+	4	0
+	+	6	0
+	+	4	24
+	+	5	0
+	+	6	0
+	+	5	20
+	+	19	27
+	+	10	0
+	+	18	0
+	+	19	31
+	+	23	0
+	+	11	49
+	+	14	0
+	+	15	0
+	+	20	46
+	+	21	19
+	+	22	29
+	+	11	25
+	+	14	25
+	+	20	25
+	+	3	28
+	+	7	0
+
+> c:\BuildEnv\clide\templates\csharp\MainClass.cs
+	"	15	29
+	^	15	30
+	.	15	29
+	+	1	19
+	+	4	0
+	+	8	21
+	+	6	22
+	+	15	29
+
+> c:\BuildEnv\clide\templates\csharp\NERD_tree_1
+	"	5	0
+	.	1	0
+	+	1	0
+
+> c:\BuildEnv\clide\templates\csharp\-MiniBufExplorer-
+	"	1	16
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> c:\BuildEnv\clide\templates\csharp\build.xml
+	"	3	19
+	^	8	23
+	.	7	23
+	+	1	22
+	+	3	27
+	+	7	23
+
+> c:\BuildEnv\clide\bin\backupclide.cmd
+	"	1	0
+
+> c:\BuildEnv\clide\templates\csharp\WeekNumber.cs
+	"	1	0
+
+> c:\BuildEnv\commands
+	"	82	0
+	^	90	18
+	.	90	18
+	+	86	100
+	+	87	0
+	+	89	0
+	+	88	0
+	+	89	19
+	+	91	0
+	+	90	18
+
+> c:\BuildEnv\vte.cmd
+	"	1	0
+
+> c:\BuildEnv\todem.cmd
+	"	1	0
+
+> c:\BuildEnv\test.cmd
+	"	1	0
+
+> c:\BuildEnv\svnSearch.cmd
+	"	1	0
+
+> c:\BuildEnv\svnRev.cmd
+	"	1	0
+
+> c:\BuildEnv\svnAddAll.cmd
+	"	1	0
+
+> c:\BuildEnv\st.cmd
+	"	1	0
+
+> c:\BuildEnv\s.cmd
+	"	1	0
+	^	1	25
+	.	1	24
+	+	1	24
+
+> c:\BuildEnv\rmd.cmd
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\DynamicsNAV\prepare_nav_planneronedb.sql
+	"	83	5
+
+> C:\dotNet\Projects\PlannerOne\trunk\cleanPugins.cmd
+	"	1	33
+	^	1	34
+	.	1	33
+	+	1	33
+
+> C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostinterface\ICommandService.cs
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\branches\V3.1\NERD_tree_1
+	"	65	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandExecuter.cs
+	"	168	0
+
+> C:\dotNet\Projects\PlannerOne\branches\V3.1\-MiniBufExplorer-
+	"	1	22
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> C:\dotNet\Projects\PlannerOne\branches\V3.1\planningmanagement\planninghostservice\CommandService.cs
+	"	88	16
+
+> C:\dotNet\Projects\PlannerOne\branches\V3.1\PlanningManagement\NERD_tree_1
+	"	31	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> C:\dotNet\Projects\PlannerOne\branches\V3.1\PlanningManagement\-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\ShellCore\Application\Application.csproj
+	"	242	4
+
+> C:\java\projects\tests\perlin\src\com\gamersassociate\perlin\Perlin.java
+	"	13	12
+	^	13	18
+	.	13	0
+	+	7	29
+	+	17	0
+	+	8	29
+	+	7	19
+	+	5	0
+	+	1	0
+	+	10	24
+	+	9	30
+	+	10	29
+	+	3	22
+	+	9	29
+	+	9	0
+	+	10	30
+	+	11	44
+	+	10	34
+	+	4	24
+	+	15	0
+	+	14	36
+	+	12	32
+	+	13	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\NavAdapter\plugins\navadapter\navadapterservice\NavInitService.cs
+	"	86	0
+	.	90	0
+	+	118	0
+	+	89	0
+	+	90	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\NavAdapter\NERD_tree_1
+	"	23	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\NavAdapter\plugins\navadapter\navadapterinterface\web references\companiesws\Reference.cs
+	"	30	85
+
+> C:\dotNet\Projects\PlannerOne\trunk\NavAdapter\-MiniBufExplorer-
+	"	1	21
+	.	2	0
+	+	2	0
+	+	2	0
+
+> C:\java\projects\tests\perlin\run.bat
+	"	1	29
+	^	1	30
+	.	1	30
+	+	1	30
+
+> C:\java\projects\tests\perlin\comp.bat
+	"	1	28
+	^	1	29
+	.	1	29
+	+	1	29
+
+> C:\java\projects\tests\perlin\src\com\gamersassociate\perlin\Perlin.class
+	"	1	0
+
+> C:\java\projects\tests\perlin\cr.bat
+	"	2	4
+	^	2	5
+	.	2	4
+	+	2	6
+	+	1	4
+	+	2	4
+
+> C:\Users\vcarluer\GamersAssociate\Slime\Android\Slime\src\gamers\associate\SlimeAttack\SlimeAttack.java
+	"	82	8
+
+> C:\java\projects\tests\perlin\src\com\gamersassociate\perlin.java
+	"	1	26
+	^	1	27
+	.	1	26
+	+	1	26
+
+> C:\Users\vcarluer\_vimrc
+	"	32	2
+	^	36	13
+	.	36	0
+	+	35	0
+	+	37	0
+	+	35	0
+	+	36	0
+
+> C:\Users\vcarluer\_viminfo
+	"	1	0
+
+> c:\BuildEnv\vim\_vimrc
+	"	54	2
+	^	62	7
+	.	62	7
+	+	55	48
+	+	57	0
+	+	57	0
+	+	57	1
+	+	58	1
+	+	59	1
+	+	60	1
+	+	57	33
+	+	60	0
+	+	63	0
+	+	63	20
+	+	63	0
+	+	63	0
+	+	63	32
+	+	64	0
+	+	54	0
+	+	64	20
+	+	64	20
+	+	64	20
+	+	64	20
+	+	64	0
+	+	64	27
+	+	64	27
+	+	64	0
+	+	64	0
+	+	64	17
+	+	64	1
+	+	64	1
+	+	64	1
+	+	63	20
+	+	64	0
+	+	64	0
+	+	64	15
+	+	64	17
+	+	64	16
+	+	64	0
+	+	64	0
+	+	57	0
+	+	58	0
+	+	59	0
+	+	60	0
+	+	63	1
+	+	63	1
+	+	63	1
+	+	63	1
+	+	58	0
+	+	55	0
+	+	56	0
+	+	63	0
+	+	61	0
+	+	62	14
+	+	55	9
+	+	62	7
+
+> c:\BuildEnv\vim\vim74\doc\map.txt
+	"	308	6
+
+> c:\BuildEnv\vim\vim74\doc\help.txt
+	"	10	57
+
+> c:\BuildEnv\vim\vim74\doc\eval.txt
+	"	4043	26
+
+> C:\dotNet\Projects\PlannerOne\branches\PO-2968\PlannerOneServer\PlannerOneServer.gpState
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\branches\PO-2968\PlannerOneServer\NERD_tree_1
+	"	11	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> C:\dotNet\Projects\PlannerOne\branches\PO-2968\PlannerOneServer\PlannerOneServer.sln
+	"	4	0
+
+> C:\dotNet\Projects\PlannerOne\branches\PO-2968\PlannerOneServer\-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> C:\dotNet\Projects\PlannerOne\branches\PO-2968\PlannerOneServer\utils\0 - All tasks.bat
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\branches\PO-2968\PlannerOneServer\plugins\setupcommon\SetupCommon.csproj
+	"	2	0
+
+> C:\dotNet\Projects\PlannerOne\branches\PO-2968\PlannerOneServer\plugins\setupcommon\PlannerOne.snk
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\branches\PO-2968\PlannerOneServer\plugins\setupcommon\ortems\plannerone\planneronesetup\SetupCommon.cs
+	"	1101	15
+
+> C:\dotNet\Projects\PlannerOne\branches\PO-2968\PlannerOneServer\plugins\setupcommon\ortems\plannerone\planneronesetup\SetupStep.cs
+	"	1	0
+
+> c:\BuildEnv\vim\vim74\doc\insert.txt
+	"	960	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\ShellCore\plugincore\entitycore\entitycoreservice\ortems\plannerone\entitycore\DataProviderNHFactory.cs
+	"	906	7
+
+> C:\dotNet\Projects\PlannerOne\trunk\ShellCore\NERD_tree_1
+	"	29	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> C:\dotNet\Projects\PlannerOne\branches\PO-2968\ShellCore\po-3905.diff
+	"	82	5
+
+> c:\BuildEnv\vimVince\_vimrc.72
+	"	55	0
+
+> c:\BuildEnv\vim\vimfiles\plugin\trinity.vim
+	"	101	10
+	^	475	10
+	.	172	0
+	+	170	29
+	+	86	31
+	+	172	32
+	+	101	0
+	+	172	32
+	+	172	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\_NERD_tree_
+	"	11	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\__Tag_List__
+	"	1	0
+	.	20	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	66	0
+	+	20	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\Source_Explorer
+	"	1	0
+	.	2	0
+	+	17064	0
+	+	17064	0
+	+	17060	0
+	+	17060	0
+	+	17056	0
+	+	17056	0
+	+	17056	0
+	+	13271	0
+	+	13271	0
+	+	13100	0
+	+	13100	0
+	+	13020	0
+	+	12957	0
+	+	12957	0
+	+	12909	0
+	+	12909	0
+	+	12902	0
+	+	12902	0
+	+	12895	0
+	+	12895	0
+	+	12895	0
+	+	12895	0
+	+	12895	0
+	+	12895	0
+	+	12895	0
+	+	12895	0
+	+	12891	0
+	+	12891	0
+	+	12887	0
+	+	12887	0
+	+	12885	0
+	+	12885	0
+	+	12885	0
+	+	12885	0
+	+	12885	0
+	+	12885	0
+	+	12885	0
+	+	12885	0
+	+	12885	0
+	+	12885	0
+	+	12883	0
+	+	12883	0
+	+	10749	0
+	+	10747	0
+	+	10747	0
+	+	8613	0
+	+	8611	0
+	+	8611	0
+	+	6477	0
+	+	6477	0
+	+	6477	0
+	+	6477	0
+	+	6472	0
+	+	4338	0
+	+	4333	0
+	+	4333	0
+	+	4333	0
+	+	4331	0
+	+	4331	0
+	+	2197	0
+	+	2197	0
+	+	2154	0
+	+	2154	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	16	0
+	+	16	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	6	0
+	+	6	0
+	+	4	0
+	+	4	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelService\PlanningController.cs
+	"	750	12
+
+> c:\BuildEnv\vim\vimfiles\plugin\srcexpl.vim
+	"	151	30
+	^	151	35
+	.	151	0
+	+	151	0
+
+> c:\BuildEnv\vim\vim74\doc\windows.txt
+	"	1115	2
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\Environment.cs
+	"	3	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\EnvironmentDao.cs
+	"	19	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningManagement.sln
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningManagement.suo
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningManagementWFGUI\Messages.Designer.cs
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningManagementWFGUI\CloneParameter.cs
+	"	2	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\GlobalSuppressions.cs
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\Services\EnvironmentFactory.cs
+	"	20	30
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\PlanningManagement.snk
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\PlanningEntity.cs
+	"	1	0
+
+> c:\BuildEnv\vim\vimfiles\plugin\NERD_tree.vim
+	"	93	56
+	^	93	57
+	.	93	57
+	+	93	57
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\Planning\IEnvironment.cs
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\Planning\IPlanningContainer.cs
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\Services\IEnvironmentFactory.cs
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\[BufExplorer]
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\DateUtc.cs
+	"	21	54
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\[BufExplorer]
+	"	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\Services\-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\Services\_NERD_tree_
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlanningManagement\PlanningModelInterface\Services\IPlanningControllerBase.cs
+	"	2	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\PlannerOneWebASP\PlannerOneWebASP\Dump\Dump.aspx.cs
+	"	23	17
+
+> C:\dotNet\Projects\PlannerOne\trunk\_NERD_tree_
+	"	119	1
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> C:\dotNet\Projects\PlannerOne\trunk\__Tag_List__
+	"	5	4
+	.	7	0
+	+	11	0
+	+	11	0
+	+	11	0
+	+	7	0
