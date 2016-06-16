@@ -42,17 +42,16 @@ if %runMode% == 2 goto TOOLS
 if %runMode% == 3 goto COMMANDS
 
 :MAIN
-echo 1 - PowerShell
+echo 1 - cmder
 echo 2 - Chrome
 echo 3 - Explorer
-echo 4 - Cygwin
 echo a - TOOLS
 echo z - COMMANDS
 echo q - Quit (or x to keep window open)
 set /P toRun=Choice: 
 if %toRun% == 1 (
 	set catchPhrase=Have a good dev time
-	start cmd /C "%~dp0cp.cmd"
+	start cmd /C "start C:\Progra~1\cmder\Cmder.exe"
 	goto CHOICE
 )
 
@@ -65,12 +64,6 @@ if %toRun% == 2 (
 if %toRun% == 3 (
 	set catchPhrase=Explore your virtual universe
 	start cmd /C "%windir%\explorer.exe"
-	goto CHOICE
-)
-
-if %toRun% == 4 (
-	set catchPhrase=The matrix key is open
-	start cmd /C "start C:\cygwin64\bin\mintty.exe -"
 	goto CHOICE
 )
 
@@ -103,7 +96,7 @@ echo 4 - SQL server management studio
 echo 5 - IIS Manager
 echo 6 - Windows Service Management
 echo 7 - Gimp
-echo 8 - Visual Studio 2013
+echo 8 - Visual Studio 2015
 echo 9 - FileZilla
 echo 10 - Virtual Box
 echo 11 - Eclipse
@@ -196,7 +189,7 @@ if %toRun% == 3 (
 
 if %toRun% == 4 (
 	set catchPhrase=What does EsseCuElle means
-	start cmd /C "start C:\Progra~2\MI3EDC~1\110\Tools\Binn\ManagementStudio\Ssms.exe"
+	start cmd /C "start C:\Progra~2\MICROS~2\110\Tools\Binn\ManagementStudio\Ssms.exe"
 	goto CHOICE
 )
 
@@ -220,7 +213,7 @@ if %toRun% == 7 (
 
 if %toRun% == 8 (
 	set catchPhrase=Use it smartly
-	start cmd /C "start "C:\PROGRA~2\MICROS~3..\Common7\IDE\devenv.exe" 
+	start cmd /C "start C:\PROGRA~2\MICROS~4.0\Common7\IDE\devenv.exe" 
 	goto CHOICE
 )
 

@@ -9,6 +9,7 @@ behave mswin
 set encoding=utf8
 set fileencoding=utf8
 set diffexpr=MyDiff()
+autocmd FileType ps1 setlocal expandtab tabstop=4
 function MyDiff()
   let opt = '-a --binary '
   if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif

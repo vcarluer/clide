@@ -1,4 +1,5 @@
 @echo off
+call "%~dp0config.cmd"
 set term=vt100
 set home=%clide%\lynx
 set temp=%clide%\temp
