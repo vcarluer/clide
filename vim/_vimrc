@@ -10,6 +10,9 @@ set encoding=utf8
 set fileencoding=utf8
 set diffexpr=MyDiff()
 autocmd FileType ps1 setlocal expandtab tabstop=4
+autocmd FileType html setlocal expandtab tabstop=4
+set shiftwidth=4
+
 function MyDiff()
   let opt = '-a --binary '
   if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
@@ -173,6 +176,7 @@ endfunction
 command! -nargs=1 FindStr :call FindStr("<args>", "cs")
 command! -nargs=1 FindStrJs :call FindStr("<args>", "js")
 command! -nargs=1 FindStrAscx :call FindStr("<args>", "ascx")
+command! -nargs=* FindStrExt :call FindStr(<f-args>)
 
 function! UIdGen()
 	let l:uid = system('uuidgen')
