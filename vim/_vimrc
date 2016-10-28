@@ -11,15 +11,15 @@ set fileencoding=utf8
 set diffexpr=MyDiff()
 autocmd FileType ps1 setlocal expandtab tabstop=4
 autocmd FileType html setlocal expandtab tabstop=4
-set shiftwidth=4
+" set shiftwidth=4
 
 "To solve redr! / CtrL
 " autocmd GuiEnter * set background&
 
-set ttimeoutlen=100
-set ttyfast
-set lazyredraw
-
+" set ttimeoutlen=100
+" set ttyfast
+" set lazyredraw
+" 
 " :au CursorMoved
 " autocmd BufReadPost quickfix map <buffer> <leader>qq :cclose<cr>|map <buffer> <c-p> <up>|map <buffer> <c-n> <down>
 " set synmaxcol=120
@@ -80,6 +80,10 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
+nnoremap <silent> <F11> :BufExplorer<CR>
+nnoremap <silent> <s-F11> :ToggleBufExplorer<CR>
+nnoremap <silent> <m-F11> :BufExplorerHorizontalSplit<CR>
+nnoremap <silent> <c-F11> :BufExplorerVerticalSplit<CR>
 
 map <F6> :b#<CR>
 
